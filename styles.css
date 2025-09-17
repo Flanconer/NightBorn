@@ -1,0 +1,59 @@
+/* ===== Estilo general ===== */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Press Start 2P', cursive;
+  background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+  color: #f5f5f5;
+  text-align: center;
+}
+
+/* ===== Contenedor principal ===== */
+.game-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* ===== Header ===== */
+.game-header {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 20px 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+}
+
+.game-header h1 {
+  margin: 0;
+  font-size: 28px;
+  color: #ffcc00;
+  text-shadow: 2px 2px #000, 0 0 8px #ff0000, 0 0 12px #ff6600;
+}
+
+/* ===== Canvas centrado ===== */
+.canvas-wrapper {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+#gameCanvas {
+  border: 4px solid #ffcc00;
+  border-radius: 8px;
+  background: #000;
+  box-shadow: 0 0 24px rgba(255, 204, 0, 0.6), inset 0 0 12px rgba(0,0,0,0.8);
+}
+
+/* ===== Footer ===== */
+.game-footer {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  font-size: 12px;
+  color: #ccc;
+  text-shadow: 1px 1px #000;
+}
+
+.game-footer span {
+  color: #ffcc00;
+}
